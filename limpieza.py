@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 df = pd.read_csv(r'data\raw\data_inmobiliario.csv', encoding='latin1')### utf-16
-
+df.columns
 
 sns.set(style="whitegrid")
 df.columns
