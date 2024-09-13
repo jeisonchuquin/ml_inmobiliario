@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv(r'data\raw\data_inmobiliario.csv', encoding='utf-16')
+df = pd.read_csv(r'data\raw\data_inmobiliario.csv', encoding='latin1')### utf-16
 
 
 sns.set(style="whitegrid")
